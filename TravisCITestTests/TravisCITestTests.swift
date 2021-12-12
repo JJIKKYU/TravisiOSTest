@@ -31,6 +31,10 @@ class TravisCITestTests: XCTestCase {
         }
     }
     
+    func testExanple2() throws {
+        print("test끝")
+    }
+    
     func testSuccess() {
         XCTAssertTrue(true)
     }
